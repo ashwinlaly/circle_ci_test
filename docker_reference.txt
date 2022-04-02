@@ -1,0 +1,22 @@
+docker network
+    1. none:
+        -> docker run -d --net none image_name
+        -> no network access based container creation
+    
+    2. bridge:
+        -> default
+        -> has two network interfaces
+            * loopback
+            * private interface
+        -> same bridge can be connected
+        -> different bridge can't be connected by default
+
+    3. overlay:
+       
+
+    4. host:
+        -> network inteface of the host machine
+
+
+
+docker-composer run application python test.py
