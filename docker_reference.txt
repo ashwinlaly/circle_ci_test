@@ -19,4 +19,4 @@ docker network
 
 
 
-docker-composer run application python test.py
+docker-composer run application python app.py
