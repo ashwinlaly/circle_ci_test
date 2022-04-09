@@ -16,4 +16,4 @@ jobs:
           name: Run tests
           command: |
             docker-compose up -d
-            docker-compose run circle_ci_test python test.py
+            docker-compose run circle_ci_test python app.py
